@@ -20,7 +20,7 @@ const getProducts = async () => {
 };
 
 export default async function ProductsList() {
-  const { products } = await getProducts();
+  const { products} = await getProducts();
 
   return (
     <div className="shadow-lg p-3 mb-5 bg-body rounded">
@@ -41,8 +41,8 @@ export default async function ProductsList() {
               {/* <th>
                 <label>
                   {/* <input type="checkbox" className="checkbox" /> */}
-                </label>
-              </th> */}
+            {/* </label> */}
+            {/* </th> */}
               <th>Name</th>
               <th>Price</th>
               <th>Category</th>
@@ -55,7 +55,7 @@ export default async function ProductsList() {
                 {/* <th>
                   <label>
                     {/* <input type="checkbox" className="checkbox" /> */}
-                  </label>
+                  {/* </label>
                 </th> */}
                 <td>
                   <div className="flex items-center gap-3">
