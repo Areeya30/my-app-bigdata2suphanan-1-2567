@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Strategy1() {
   return (
-    <div className="px-20 py-10">
+    <div className="px-24 py-10">
       <p className="py-2">
         ๑. การรักษาความสงบภายในประเทศ เพื่อสร้างเสริมความสงบเรียบร้อย
         และสันติสุขให้เกิดขึ้นกับประเทศชาติบ้านเมือง โดย (๑)
